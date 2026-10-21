@@ -1,0 +1,18 @@
+services:
+  rustfs:
+    image: rustfs/rustfs:latest
+    container_name: rustfs-mapreduce
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      RUSTFS_ACCESS_KEY: rustfsadmin
+      RUSTFS_SECRET_KEY: rustfsadmin
+      RUSTFS_VOLUMES: "/data/disk{1...4}"
+      RUSTFS_UNSAFE_BYPASS_DISK_CHECK: "true"
+    volumes:
+      - ./disk1:/data/disk1
+      - ./disk2:/data/disk2
+      - ./disk3:/data/disk3
+      - ./disk4:/data/disk4
+    restart: unless-stopped

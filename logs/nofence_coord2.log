@@ -1,0 +1,52 @@
+20:12:27 | Запуск coord2 | FENCING=0 | session_timeout=10s
+20:12:27 | Читаю исходный CSV...
+20:13:51 | Подготовка завершена: найдено 11325 вакансий C#/.NET
+20:13:51 | ZooKeeper state: CONNECTED
+20:14:05 | СТАЛ ЛИДЕРОМ | coordinator=coord2 | epoch=0 | fencing=0
+20:14:05 | ВОССТАНОВЛЕНИЕ С CHECKPOINT: продолжаю с вакансии 1000 из 11325
+20:14:05 | checkpoint: 1250/11325 | pair_sum=24250
+20:14:06 | checkpoint: 1500/11325 | pair_sum=30283
+20:14:08 | checkpoint: 1750/11325 | pair_sum=35783
+20:14:09 | checkpoint: 2000/11325 | pair_sum=40618
+20:14:10 | checkpoint: 2250/11325 | pair_sum=46689
+20:14:12 | checkpoint: 2500/11325 | pair_sum=52083
+20:14:13 | checkpoint: 2750/11325 | pair_sum=56643
+20:14:14 | checkpoint: 3000/11325 | pair_sum=61806
+20:14:16 | checkpoint: 3250/11325 | pair_sum=66965
+20:14:17 | checkpoint: 3500/11325 | pair_sum=73450
+20:14:19 | checkpoint: 3750/11325 | pair_sum=79092
+20:14:20 | checkpoint: 4000/11325 | pair_sum=83653
+20:14:21 | checkpoint: 4250/11325 | pair_sum=89178
+20:14:23 | checkpoint: 4500/11325 | pair_sum=93642
+20:14:24 | checkpoint: 4750/11325 | pair_sum=101353
+20:14:25 | checkpoint: 5000/11325 | pair_sum=107594
+20:14:27 | checkpoint: 5250/11325 | pair_sum=112516
+20:14:28 | checkpoint: 5500/11325 | pair_sum=118124
+20:14:30 | checkpoint: 5750/11325 | pair_sum=125329
+20:14:31 | checkpoint: 6000/11325 | pair_sum=130945
+20:14:32 | checkpoint: 6250/11325 | pair_sum=135222
+20:14:34 | checkpoint: 6500/11325 | pair_sum=140479
+20:14:35 | checkpoint: 6750/11325 | pair_sum=146615
+20:14:37 | checkpoint: 7000/11325 | pair_sum=152973
+20:14:38 | checkpoint: 7250/11325 | pair_sum=159846
+20:14:40 | checkpoint: 7500/11325 | pair_sum=166796
+20:14:41 | checkpoint: 7750/11325 | pair_sum=172372
+20:14:43 | checkpoint: 8000/11325 | pair_sum=179884
+20:14:44 | checkpoint: 8250/11325 | pair_sum=184916
+20:14:46 | checkpoint: 8500/11325 | pair_sum=190225
+20:14:47 | checkpoint: 8750/11325 | pair_sum=197388
+20:14:49 | checkpoint: 9000/11325 | pair_sum=202829
+20:14:50 | checkpoint: 9250/11325 | pair_sum=208772
+20:14:52 | checkpoint: 9500/11325 | pair_sum=214225
+20:14:53 | checkpoint: 9750/11325 | pair_sum=221710
+20:14:55 | checkpoint: 10000/11325 | pair_sum=227173
+20:14:56 | checkpoint: 10250/11325 | pair_sum=234113
+20:14:58 | checkpoint: 10500/11325 | pair_sum=239293
+20:14:59 | checkpoint: 10750/11325 | pair_sum=245414
+20:15:01 | checkpoint: 11000/11325 | pair_sum=252354
+20:15:02 | checkpoint: 11250/11325 | pair_sum=258122
+20:15:04 | checkpoint: 11325/11325 | pair_sum=259817
+20:15:05 | РАСЧЁТ ЗАВЕРШЁН | pair_sum=259817 | unique_pairs=57909
+20:15:05 | КОНТРОЛЬ ДЗ3 СОВПАЛ: 259817 / 57909
+20:15:05 | ЗАПИСАЛ РЕЗУЛЬТАТ: 259817 | pointer version=1
+20:15:05 | Лидер остаётся активным после публикации результата

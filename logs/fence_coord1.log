@@ -1,0 +1,59 @@
+20:29:20 | Запуск coord1 | FENCING=1 | session_timeout=10s
+20:29:20 | Читаю исходный CSV...
+20:30:52 | Подготовка завершена: найдено 11325 вакансий C#/.NET
+20:30:52 | ZooKeeper state: CONNECTED
+20:30:52 | СТАЛ ЛИДЕРОМ | coordinator=coord1 | epoch=0 | fencing=1
+20:30:52 | Checkpoint отсутствует, начинаю с нуля
+20:30:52 | checkpoint: 250/11325 | pair_sum=5086
+20:30:53 | checkpoint: 500/11325 | pair_sum=10650
+20:30:55 | checkpoint: 750/11325 | pair_sum=15258
+20:30:56 | checkpoint: 1000/11325 | pair_sum=19684
+20:30:58 | checkpoint: 1250/11325 | pair_sum=24250
+20:33:50 | ZooKeeper state: SUSPENDED
+20:33:50 | ZooKeeper state: LOST
+20:33:50 | ZooKeeper state: CONNECTED
+20:33:50 | checkpoint: 1500/11325 | pair_sum=30283
+20:33:51 | checkpoint: 1750/11325 | pair_sum=35783
+20:33:53 | checkpoint: 2000/11325 | pair_sum=40618
+20:33:54 | checkpoint: 2250/11325 | pair_sum=46689
+20:33:55 | checkpoint: 2500/11325 | pair_sum=52083
+20:33:57 | checkpoint: 2750/11325 | pair_sum=56643
+20:33:58 | checkpoint: 3000/11325 | pair_sum=61806
+20:33:59 | checkpoint: 3250/11325 | pair_sum=66965
+20:34:01 | checkpoint: 3500/11325 | pair_sum=73450
+20:34:02 | checkpoint: 3750/11325 | pair_sum=79092
+20:34:03 | checkpoint: 4000/11325 | pair_sum=83653
+20:34:05 | checkpoint: 4250/11325 | pair_sum=89178
+20:34:06 | checkpoint: 4500/11325 | pair_sum=93642
+20:34:08 | checkpoint: 4750/11325 | pair_sum=101353
+20:34:09 | checkpoint: 5000/11325 | pair_sum=107594
+20:34:10 | checkpoint: 5250/11325 | pair_sum=112516
+20:34:12 | checkpoint: 5500/11325 | pair_sum=118124
+20:34:13 | checkpoint: 5750/11325 | pair_sum=125329
+20:34:15 | checkpoint: 6000/11325 | pair_sum=130945
+20:34:16 | checkpoint: 6250/11325 | pair_sum=135222
+20:34:18 | checkpoint: 6500/11325 | pair_sum=140479
+20:34:19 | checkpoint: 6750/11325 | pair_sum=146615
+20:34:21 | checkpoint: 7000/11325 | pair_sum=152973
+20:34:22 | checkpoint: 7250/11325 | pair_sum=159846
+20:34:24 | checkpoint: 7500/11325 | pair_sum=166796
+20:34:25 | checkpoint: 7750/11325 | pair_sum=172372
+20:34:27 | checkpoint: 8000/11325 | pair_sum=179884
+20:34:28 | checkpoint: 8250/11325 | pair_sum=184916
+20:34:30 | checkpoint: 8500/11325 | pair_sum=190225
+20:34:31 | checkpoint: 8750/11325 | pair_sum=197388
+20:34:33 | checkpoint: 9000/11325 | pair_sum=202829
+20:34:34 | checkpoint: 9250/11325 | pair_sum=208772
+20:34:36 | checkpoint: 9500/11325 | pair_sum=214225
+20:34:38 | checkpoint: 9750/11325 | pair_sum=221710
+20:34:39 | checkpoint: 10000/11325 | pair_sum=227173
+20:34:41 | checkpoint: 10250/11325 | pair_sum=234113
+20:34:43 | checkpoint: 10500/11325 | pair_sum=239293
+20:34:44 | checkpoint: 10750/11325 | pair_sum=245414
+20:34:46 | checkpoint: 11000/11325 | pair_sum=252354
+20:34:48 | checkpoint: 11250/11325 | pair_sum=258122
+20:34:49 | checkpoint: 11325/11325 | pair_sum=259817
+20:34:50 | РАСЧЁТ ЗАВЕРШЁН | pair_sum=259817 | unique_pairs=57909
+20:34:51 | КОНТРОЛЬ ДЗ3 СОВПАЛ: 259817 / 57909
+20:34:51 | BadVersionError: запись отклонена. Эпоха 0 устарела.
+20:34:51 | Лидер остаётся активным после публикации результата
